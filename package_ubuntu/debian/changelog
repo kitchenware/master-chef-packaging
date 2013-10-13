@@ -1,0 +1,18 @@
+master-chef (1.0-3) precise; urgency=low
+
+  * Update solo.rb
+  * Manage conffiles
+
+ -- Bertrand Paquet <bertrand.paquet@gmail.com>  Mon, 07 Oct 2013 15:09:26 +0200
+
+master-chef (1.0-2) precise; urgency=low
+
+  * Fix permission problems
+
+ -- Bertrand Paquet <bertrand.paquet@gmail.com>  Tue, 03 Sep 2013 12:01:37 +0200
+
+master-chef (1.0-1) precise; urgency=low
+
+  * First release
+
+ -- Bertrand Paquet <bertrand.paquet@gmail.com>  Mon, 2 Sep 2013 21:43:57 +0000

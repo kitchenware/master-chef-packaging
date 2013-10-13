@@ -1,0 +1,15 @@
+Source: master-chef
+Section: utils
+Priority: optional
+Maintainer: Bertrand Paquet <bertrand.paquet@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 1.5.2
+Homepage: https://github.com/octo-technology/master-chef
+
+Package: master-chef
+Section: utils
+Priority: optional
+Architecture: all
+Depends: chef (>= 11.6), git-core, curl, bzip2
+Description: Master-chef bootstrap
+

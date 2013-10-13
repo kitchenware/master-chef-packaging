@@ -1,0 +1,6 @@
+/opt/master-chef
+/opt/master-chef/etc
+/opt/master-chef/bin
+/opt/master-chef/var
+/opt/master-chef/var/last
+/opt/master-chef/tmp
