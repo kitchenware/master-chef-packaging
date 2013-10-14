@@ -88,8 +88,6 @@ if config["repos"]["git"]
     cookbooks << cookbook if File.exists? cookbook
     role = File.join(target, "roles")
     roles << role if File.exists? role
-    ohai_plugin = File.join(target, "ohai_plugins")
-    ohai_plugins << ohai_plugin if File.exists ohai_plugin
   end
 end
 
@@ -101,6 +99,8 @@ if config["repos"]["local_path"]
     cookbooks << cookbook if File.exists? cookbook
     role = File.join(target, "roles")
     roles << role if File.exists? role
+    ohai_plugin = File.join(target, "ohai_plugins")
+    ohai_plugins << ohai_plugin if File.exists? ohai_plugin
   end
 end
 

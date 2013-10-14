@@ -1,3 +1,9 @@
+master-chef (1.0-4) precise; urgency=low
+
+  * Allow to load ohai plugins
+
+ -- Bertrand Paquet <bertrand.paquet@gmail.com>  Mon, 14 Oct 2013 21:38:26 +0200
+
 master-chef (1.0-3) precise; urgency=low
 
   * Update solo.rb
